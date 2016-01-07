@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Blackboard Fix",
+	"description": "Cause Learn.UQ should link to learn.uq.edu.au not elearning.uq.edu.au",
+	"version": "0.1",
+	"content_scripts": [{
+		"matches": ["http://learn.uq.edu.au/*","https://learn.uq.edu.au/*"],
+		"js": ["content.js"]
+	}]
+}
