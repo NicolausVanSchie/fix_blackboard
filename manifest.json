@@ -6,5 +6,12 @@
 	"content_scripts": [{
 		"matches": ["*://learn.uq.edu.au/*"],
 		"js": ["content.js"]
-	}]
+	}],
+    "icons": { 
+        "128": "fix_blackboard.iconset/icon_16x16.png",
+        "128": "fix_blackboard.iconset/icon_32x32.png",
+        "128": "fix_blackboard.iconset/icon_128x128.png",
+        "128": "fix_blackboard.iconset/icon_256x256.png",
+        "128": "fix_blackboard.iconset/icon_512x512.png" 
+    }
 }
